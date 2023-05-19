@@ -1,0 +1,13 @@
+wait(1)
+firesignal(game.ReplicatedStorage.EntityInfo.Caption.OnClientEvent, 'you will die in 5.')
+wait(1)
+firesignal(game.ReplicatedStorage.EntityInfo.Caption.OnClientEvent, 'you will die in 4.')
+wait(1)
+firesignal(game.ReplicatedStorage.EntityInfo.Caption.OnClientEvent, 'you will die in 3.')
+wait(1)
+firesignal(game.ReplicatedStorage.EntityInfo.Caption.OnClientEvent, 'you will die in 2.')
+wait(1)
+firesignal(game.ReplicatedStorage.EntityInfo.Caption.OnClientEvent, 'you will die in 1.')
+wait(1)
+firesignal(game.ReplicatedStorage.EntityInfo.Caption.OnClientEvent, 'you will die in 0.')
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
